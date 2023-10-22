@@ -1,6 +1,6 @@
 # Notes App with ES6 Express and Postgres
 
-## Features
+## Features Implemented
  - Backend
     1. Use Node.js to create the backend of the application.
     2. Use Postgres as the database to store the notes data.
@@ -10,8 +10,8 @@
        
  - Bonus
     1. Implement the ability to share notes with other users. Share API implemented
-    2. Implement a search functionality that allows users to search through their notes. Search paramter has been added in the retrieve API
-    3. Host the application on Heroku.
+    2. Implement a search functionality that allows users to search through their notes. Search parameter has been added in the retrieve API
+    3. Host the application on Heroku. 
 
 ## Requirements
  - Node v18.17.1
