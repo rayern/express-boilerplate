@@ -1,4 +1,4 @@
-# Notes App with ES6 Express and Postgres
+# Express Boilerplate 
 
 ## Features 
  - ES6
