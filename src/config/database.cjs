@@ -13,27 +13,15 @@ const {
 
 module.exports = {
   development: {
-    username: DB_USERNAME,
-    password: DB_PASSWORD,
-    database: DB_NAME,
-    host: DB_HOST,
-    port: DB_PORT,
-    dialect: DB_DIALECT,
+    url: DATABASE_URL,
+    dialect: 'postgres',
   },
   test: {
-    username: DB_USERNAME,
-    password: DB_PASSWORD,
-    database: DB_NAME,
-    host: DB_HOST,
-    port: DB_PORT,
-    dialect: DB_DIALECT,
+    url: DATABASE_URL,
+    dialect: 'postgres',
   },
   production: {
-    username: DB_USERNAME,
-    password: DB_PASSWORD,
-    database: DB_NAME,
-    host: DB_HOST,
-    port: DB_PORT,
-    dialect: DB_DIALECT,
+    url: DATABASE_URL,
+    dialect: 'postgres',
   },
 }
