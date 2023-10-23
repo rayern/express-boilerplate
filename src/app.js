@@ -2,7 +2,6 @@ import express from "express"
 import cors from "cors"
 import "dotenv/config"
 import userRoutes from "./routes/user.js"
-import noteRoutes from "./routes/note.js"
 import notFound from "./middleware/notFound.js"
 import errorHandler from "./middleware/errorHandler.js"
 import cookieParser from "cookie-parser"
@@ -28,7 +27,6 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cookieParser())
 app.use("/user", userRoutes)
-app.use("/note", noteRoutes)
 app.use(notFound)
 app.use(errorHandler)
 
