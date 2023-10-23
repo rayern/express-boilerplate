@@ -7,7 +7,7 @@ import notFound from "./middleware/notFound.js"
 import errorHandler from "./middleware/errorHandler.js"
 import cookieParser from "cookie-parser"
 
-const PORT = process.env.APP_PORT || 3000
+const PORT = process.env.PORT || 3000
 const app = express()
 
 const whitelist = JSON.parse(process.env.CORS_WHITELIST)
